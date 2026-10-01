@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" role="img" aria-label="Sumqayıt Gənclər Evi loqosu">
+  <title>Sumqayıt Gənclər Evi</title>
+  <g fill="none" stroke="#0AB968" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="90" cy="46" r="17" fill="#0AB968" stroke="none"/>
+    <path d="M47 62 Q51 108 90 108 Q129 108 149 22" stroke-width="14"/>
+    <path d="M18 133 L62 89 Q76 75 90 89 L106 105" stroke-width="14"/>
+    <path d="M106 105 L128 127" stroke-width="14"/>
+    <path d="M118 82 L118 104" stroke-width="13"/>
+  </g>
+  <rect x="108" y="122" width="13" height="13" fill="#0AB968"/>
+</svg>

@@ -1,0 +1,30 @@
+﻿{
+  "institution": {
+    "name": "SUMQAYIT GƏNCLƏR EVİ",
+    "city": "Sumqayıt, Azərbaycan",
+    "established": "2015",
+    "address": "5-ci mikrorayon, Sumqayıt Gənclər Evi, Sumqayıt şəhəri, Azərbaycan",
+    "phone": "+123 45 678 91 01",
+    "email": "xxxx@gmail.com",
+    "hours": "Bazar ertəsi - Cümə: 09:00 - 18:00",
+    "instagram": "",
+    "socialNote": "Sosial media tezliklə əlavə olunacaq."
+  },
+  "models": {
+    "NewsArticle": ["id", "slug", "title", "category", "date", "summary", "coverImage", "body", "author"],
+    "Event": ["id", "title", "date", "time", "location", "description", "poster", "registrationStatus"],
+    "Activity": ["id", "title", "category", "shortDescription", "fullDescription", "targetAudience", "schedule", "location", "registrationStatus", "responsibleUnit"],
+    "Club": ["id", "name", "description", "schedule", "ageGroup", "availability", "location"],
+    "VolunteerApplication": ["id", "ad", "soyad", "phone", "email", "interest", "consent", "createdAt"],
+    "GeneralApplication": ["id", "ad", "soyad", "dogum", "phone", "email", "city", "school", "interest", "activity", "note", "consent", "createdAt"],
+    "GalleryItem": ["id", "type", "src", "alt", "caption", "category"],
+    "ContactInfo": ["address", "phone", "email", "hours", "instagram", "map"]
+  },
+  "news": [
+    {"id": 1, "slug": "derneklere-qeydiyyat", "title": "Payız sessiyası üçün dərnəklərə qeydiyyat başladı", "category": "Təhsil", "date": "2026-10-01", "summary": "Rəsmi müraciət qaydası açıqlandı."}
+  ],
+  "events": [
+    {"id": 1, "title": "Gənc debat forumu", "date": "2026-10-12", "time": "Məlumat əlavə olunacaq", "location": "Sumqayıt Gənclər Evi", "registrationStatus": "open"}
+  ]
+}
+

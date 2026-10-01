@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | Sumqayıt Gənclər Evi</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Əsas məzmuna keç</a>
+<header class="site-header"><div class="container header-main">
+<a class="brand" href="index.html"><img src="./assets/logo.svg" alt="Loqo"><span class="brand-text"><strong>SUMQAYIT GƏNCLƏR EVİ</strong><span>ADMIN PANEL - KONSEPT</span></span></a>
+<a class="btn btn-secondary btn-sm" href="index.html">Sayta qayıt</a></div></header>
+<main id="main">
+<div class="page-hero"><div class="container"><span class="eyebrow">Məhdud giriş</span><h1>Admin panel (konsept)</h1><p class="lead">Xəbərlər, tədbirlər, dərnəklər, qalereya, müraciətlər və əlaqə məlumatlarının idarəsi üçün institusional interfeys. Autentifikasiya server tərəfində olmalıdır.</p></div></div>
+<section class="section"><div class="container">
+<div class="admin-layout">
+<aside class="admin-side" aria-label="Admin menyu"><a class="active" href="admin.html">Müraciətlər</a><a href="admin.html">Xəbərlər</a><a href="admin.html">Tədbirlər</a><a href="admin.html">Dərnəklər</a><a href="admin.html">Qalereya</a><a href="admin.html">Əlaqə məlumatı</a></aside>
+<div class="admin-main">
+<div style="display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px"><h2 style="margin:0">Son müraciətlər</h2><input id="adminSearch" class="search-input" type="search" placeholder="Axtar" aria-label="Müraciət axtar" style="min-width:200px"></div>
+<p class="notice">Demo məlumatdır. Real müraciətlər serverdə saxlanılır, brauzerdə saxlanılmır.</p>
+<table class="table" id="adminTable"><thead><tr><th>Tarix</th><th>Ad</th><th>İstiqamət</th><th>Status</th></tr></thead><tbody>
+<tr><td>01.10.2026</td><td>A. Məmmədova</td><td>Robotexnika</td><td><span class="badge green">Yeni</span></td></tr>
+<tr><td>28.09.2026</td><td>T. Əliyev</td><td>Debat</td><td><span class="badge">Baxılır</span></td></tr>
+<tr><td>24.09.2026</td><td>N. Hüseynli</td><td>Könüllülük</td><td><span class="badge green">Təsdiqləndi</span></td></tr>
+<tr><td>15.09.2026</td><td>R. Quliyev</td><td>Riyaziyyat</td><td><span class="badge red">Əlaqə alınmadı</span></td></tr>
+</tbody></table>
+<div style="display:flex;gap:10px;margin-top:18px;flex-wrap:wrap"><button class="btn btn-primary btn-sm" type="button" onclick="alert('Konsept: əlavə etmə CMS-ə qoşulduqda aktivləşəcək.')">+ Yeni xəbər</button><button class="btn btn-secondary btn-sm" type="button" onclick="alert('Konsept: ixrac server tərəfində həyata keçirilir.')">İxrac</button></div>
+</div>
+</div>
+</div></section>
+</main>
+<script src="./js/content.js"></script><script src="./js/main.js"></script>
+</body>
+</html>
+

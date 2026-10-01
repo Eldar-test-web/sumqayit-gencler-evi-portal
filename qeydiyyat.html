@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qeydiyyat | Sumqayıt Gənclər Evi</title>
+<meta name="description" content="Dərnək və tədbirlərə rəsmi qeydiyyat forması.">
+<link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Əsas məzmuna keç</a>
+<div class="topbar"><div class="container"><div class="topbar-left"><span>Rəsmi qurum portalı</span></div><div class="topbar-right"><div class="lang-switch"><button data-lang="az" aria-pressed="true">AZ</button><button data-lang="en" aria-pressed="false">EN</button></div></div></div></div>
+<header class="site-header"><div class="container header-main">
+<a class="brand" href="index.html"><img src="./assets/logo.svg" alt="Loqo"><span class="brand-text"><strong>SUMQAYIT GƏNCLƏR EVİ</strong><span>RƏSMİ PORTAL</span></span></a>
+<nav class="nav-desktop"><a data-nav href="index.html">Ana səhifə</a><a data-nav href="haqqimizda.html">Haqqımızda</a><a data-nav href="fealiyyet.html">Fəaliyyət</a><a data-nav href="dernekler.html">Təlimlər və Dərnəklər</a><a data-nav href="tedbirler.html">Tədbirlər</a><a data-nav href="xeberler.html">Xəbərlər</a><a data-nav href="konulluluk.html">Könüllülük</a><a data-nav href="media.html">Media</a><a data-nav href="elaqe.html">Əlaqə</a></nav>
+<a class="btn btn-primary btn-sm" href="qeydiyyat.html">Qeydiyyat</a>
+<button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobileNav" aria-label="Menyu"><span></span><span></span><span></span></button></div>
+<nav class="mobile-nav" id="mobileNav"><a href="index.html">Ana səhifə</a><a href="qeydiyyat.html"><strong>Qeydiyyat</strong></a></nav></header>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Ana səhifə</a> / Qeydiyyat</div><span class="eyebrow">Rəsmi müraciət</span><h1>Qeydiyyat</h1><p class="lead">Dövlət xidməti üslubunda rəsmi müraciət forması. Ulduzla işarələnmiş xanalar mütləqdir.</p></div></div>
+<section class="section"><div class="container">
+<div class="form-wrap">
+<div class="form-side"><h3>Qeydiyyat qaydası</h3><ul><li>Formanı Azərbaycan dilində doldurun.</li><li>Telefon və e-poçtu düzgün yazın.</li><li>Bir müraciətdə bir fəaliyyət seçin.</li><li>Cavab 3 iş günü ərzində verilir (yer tutucu müddət).</li></ul><p class="small" style="color:#9DB5A9">Məlumat əlavə olunacaq: yaş qrupları və qrupların tutumu hər elanda dəqiqləşdirilir.</p></div>
+<div class="form-main">
+<form data-validate data-success="regSuccess" novalidate>
+<div class="form-2">
+<div class="field"><label for="ad">Ad <em>*</em></label><input id="ad" name="ad" required autocomplete="given-name"><span class="error-msg">Adı daxil edin.</span></div>
+<div class="field"><label for="soyad">Soyad <em>*</em></label><input id="soyad" name="soyad" required autocomplete="family-name"><span class="error-msg">Soyadı daxil edin.</span></div>
+</div>
+<div class="form-2">
+<div class="field"><label for="dogum">Doğum tarixi <em>*</em></label><input id="dogum" name="dogum" type="date" required><span class="error-msg">Doğum tarixini seçin.</span></div>
+<div class="field"><label for="tel">Telefon <em>*</em></label><input id="tel" name="phone" inputmode="tel" placeholder="+994 ..." required><span class="error-msg">Düzgün telefon daxil edin.</span></div>
+</div>
+<div class="form-2">
+<div class="field"><label for="email">Email <em>*</em></label><input id="email" name="email" type="email" required autocomplete="email"><span class="error-msg">Düzgün e-poçt daxil edin.</span></div>
+<div class="field"><label for="seher">Yaşadığın şəhər <em>*</em></label><input id="seher" name="seher" value="Sumqayıt" required><span class="error-msg">Şəhəri daxil edin.</span></div>
+</div>
+<div class="field"><label for="tehsil">Təhsil müəssisəsi</label><input id="tehsil" name="tehsil" placeholder="Məs. 28 nömrəli məktəb"><span class="error-msg"></span></div>
+<div class="form-2">
+<div class="field"><label for="maraq">Maraq dairəsi <em>*</em></label><select id="maraq" name="maraq" required><option value="">Seçin</option><option>Təhsil</option><option>Robotexnika</option><option>Debat</option><option>Mədəni fəaliyyət</option><option>Könüllülük</option><option>Rəqəmsal bacarıqlar</option></select><span class="error-msg">Seçim edin.</span></div>
+<div class="field"><label for="feal">Seçdiyin fəaliyyət <em>*</em></label><select id="feal" name="fealiyyet" required><option value="">Seçin</option><option>Riyaziyyat</option><option>Robotexnika</option><option>Rus dili danışıq</option><option>Debat</option><option>Müzakirə</option><option>Könüllülük</option></select><span class="error-msg">Fəaliyyət seçin.</span></div>
+</div>
+<div class="field"><label for="elave">Əlavə məlumat</label><textarea id="elave" name="elave" rows="4" placeholder="Könüllü qeyd"></textarea></div>
+<div class="field"><label style="display:flex;gap:8px;align-items:start"><input type="checkbox" data-consent required style="width:auto"><span class="small">Məxfilik bildirişini oxudum, şəxsi məlumatlarımın emalına razılıq verirəm. <em>*</em></span></label><span class="error-msg">Razılıq mütləqdir.</span></div>
+<p class="notice">Məxfilik: məlumatlar yalnız müraciətə baxılması üçün istifadə olunur, üçüncü şəxslərə verilmir və açıq interfeysdə göstərilmir.</p>
+<button class="btn btn-primary" type="submit" style="width:100%;margin-top:12px">Müraciəti göndər</button>
+</form>
+<div class="success-box" id="regSuccess" role="status"><h3>Müraciətiniz qəbul edildi.</h3><p>Nömrəniz qeydə alındı. Əməkdaşlarımız sizinlə əlaqə saxlayacaq.</p><a class="btn btn-secondary btn-sm" href="index.html">Ana səhifəyə qayıt</a></div>
+</div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-top"><div><div class="footer-brand"><img src="./assets/logo.svg" alt=""><div><strong>SUMQAYIT GƏNCLƏR EVİ</strong></div></div></div><div><h4>Bölmələr</h4><ul><li><a href="qeydiyyat.html">Qeydiyyat</a></li></ul></div><div><h4>Əlaqə</h4><ul><li><span class="small" data-contact-phone>+123 45 678 91 01</span></li></ul></div></div><div class="footer-divider"><div class="container footer-bottom"><span>© <span data-year>2026</span> Sumqayıt Gənclər Evi.</span></div></div></footer>
+<script src="./js/content.js"></script><script src="./js/main.js"></script>
+</body>
+</html>
+

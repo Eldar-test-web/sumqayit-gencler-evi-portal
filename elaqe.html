@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Əlaqə | Sumqayıt Gənclər Evi</title>
+<meta name="description" content="Rəsmi əlaqə məlumatları, iş vaxtı və xəritə.">
+<link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Əsas məzmuna keç</a>
+<div class="topbar"><div class="container"><div class="topbar-left"><span>Rəsmi qurum portalı</span></div><div class="topbar-right"><div class="lang-switch"><button data-lang="az" aria-pressed="true">AZ</button><button data-lang="en" aria-pressed="false">EN</button></div></div></div></div>
+<header class="site-header"><div class="container header-main">
+<a class="brand" href="index.html"><img src="./assets/logo.svg" alt="Loqo"><span class="brand-text"><strong>SUMQAYIT GƏNCLƏR EVİ</strong><span>RƏSMİ PORTAL</span></span></a>
+<nav class="nav-desktop"><a data-nav href="index.html">Ana səhifə</a><a data-nav href="haqqimizda.html">Haqqımızda</a><a data-nav href="fealiyyet.html">Fəaliyyət</a><a data-nav href="dernekler.html">Təlimlər və Dərnəklər</a><a data-nav href="tedbirler.html">Tədbirlər</a><a data-nav href="xeberler.html">Xəbərlər</a><a data-nav href="konulluluk.html">Könüllülük</a><a data-nav href="media.html">Media</a><a data-nav href="elaqe.html">Əlaqə</a></nav>
+<a class="btn btn-primary btn-sm" href="qeydiyyat.html">Qeydiyyat</a>
+<button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobileNav" aria-label="Menyu"><span></span><span></span><span></span></button></div>
+<nav class="mobile-nav" id="mobileNav"><a href="index.html">Ana səhifə</a><a href="elaqe.html">Əlaqə</a><a href="qeydiyyat.html"><strong>Qeydiyyat</strong></a></nav></header>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Ana səhifə</a> / Əlaqə</div><span class="eyebrow">Əlaqə</span><h1>Əlaqə</h1><p class="lead">Bütün əlaqə məlumatları mərkəzi konfiqurasiyadan redaktə olunur (js/content.js).</p></div></div>
+<section class="section"><div class="container grid-2">
+<div>
+<div class="card"><div class="card-body">
+<h3>Rəsmi əlaqə</h3>
+<p><strong>Ünvan:</strong><br><span data-contact-address>5-ci mikrorayon, Sumqayıt Gənclər Evi, Sumqayıt şəhəri, Azərbaycan</span></p>
+<p><strong>Telefon:</strong><br><span data-contact-phone>+123 45 678 91 01</span></p>
+<p><strong>E-poçt:</strong><br><span data-contact-email>xxxx@gmail.com</span></p>
+<p><strong>İş vaxtı:</strong><br><span data-contact-hours>Bazar ertəsi – Cümə: 09:00 – 18:00</span></p>
+<p><strong>Sosial media:</strong><br><span class="muted">Tezliklə əlavə olunacaq.</span></p>
+</div></div>
+<div class="card" style="margin-top:16px"><div class="card-body">
+<h3>Mesaj göndər</h3>
+<form data-validate data-success="cSuccess" novalidate>
+<div class="field"><label for="c-ad">Ad <em>*</em></label><input id="c-ad" required><span class="error-msg">Adı daxil edin.</span></div>
+<div class="field"><label for="c-mail">Email <em>*</em></label><input id="c-mail" type="email" required><span class="error-msg">Düzgün e-poçt daxil edin.</span></div>
+<div class="field"><label for="c-msg">Mesaj <em>*</em></label><textarea id="c-msg" rows="4" required></textarea><span class="error-msg">Mesajı daxil edin.</span></div>
+<button class="btn btn-primary" type="submit" style="width:100%">Göndər</button>
+</form>
+<div class="success-box" id="cSuccess" role="status"><h3>Müraciətiniz qəbul edildi.</h3><p>Tezliklə cavablandırılacaq.</p></div>
+</div></div>
+</div>
+<div><div class="card"><div class="card-body"><h3>Xəritə</h3><p class="small muted">Rəsmi ünvan təsdiqlənməyib. Ümumi Sumqayıt görünüşü.</p><iframe title="Sumqayıt xəritəsi" src="https://www.openstreetmap.org/export/embed.html?bbox=49.55%2C40.55%2C49.72%2C40.65&layer=mapnik&marker=40.59%2C49.635" style="width:100%;height:420px;border:1px solid var(--line);border-radius:6px" loading="lazy"></iframe></div></div></div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-top"><div><div class="footer-brand"><img src="./assets/logo.svg" alt=""><div><strong>SUMQAYIT GƏNCLƏR EVİ</strong></div></div></div><div><h4>Bölmələr</h4><ul><li><a href="elaqe.html">Əlaqə</a></li></ul></div><div><h4>Müraciət</h4><ul><li><a href="qeydiyyat.html">Qeydiyyat</a></li></ul></div><div><h4>Əlaqə</h4><ul><li><span class="small" data-contact-phone>+123 45 678 91 01</span></li></ul></div></div><div class="footer-divider"><div class="container footer-bottom"><span>© <span data-year>2026</span> Sumqayıt Gənclər Evi.</span></div></div></footer>
+<script src="./js/content.js"></script><script src="./js/main.js"></script>
+</body>
+</html>
+

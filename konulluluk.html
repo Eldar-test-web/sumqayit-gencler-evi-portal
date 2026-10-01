@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Könüllülük | Sumqayıt Gənclər Evi</title>
+<meta name="description" content="Könüllülük: kimlər qoşula bilər, fəaliyyət, imkanlar və müraciət forması.">
+<link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Əsas məzmuna keç</a>
+<div class="topbar"><div class="container"><div class="topbar-left"><span>Rəsmi qurum portalı</span></div><div class="topbar-right"><div class="lang-switch"><button data-lang="az" aria-pressed="true">AZ</button><button data-lang="en" aria-pressed="false">EN</button></div></div></div></div>
+<header class="site-header"><div class="container header-main">
+<a class="brand" href="index.html"><img src="./assets/logo.svg" alt="Loqo"><span class="brand-text"><strong>SUMQAYIT GƏNCLƏR EVİ</strong><span>RƏSMİ PORTAL</span></span></a>
+<nav class="nav-desktop"><a data-nav href="index.html">Ana səhifə</a><a data-nav href="haqqimizda.html">Haqqımızda</a><a data-nav href="fealiyyet.html">Fəaliyyət</a><a data-nav href="dernekler.html">Təlimlər və Dərnəklər</a><a data-nav href="tedbirler.html">Tədbirlər</a><a data-nav href="xeberler.html">Xəbərlər</a><a data-nav href="konulluluk.html">Könüllülük</a><a data-nav href="media.html">Media</a><a data-nav href="elaqe.html">Əlaqə</a></nav>
+<a class="btn btn-primary btn-sm" href="qeydiyyat.html">Qeydiyyat</a>
+<button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobileNav" aria-label="Menyu"><span></span><span></span><span></span></button></div>
+<nav class="mobile-nav" id="mobileNav"><a href="index.html">Ana səhifə</a><a href="konulluluk.html">Könüllülük</a><a href="qeydiyyat.html"><strong>Qeydiyyat</strong></a></nav></header>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Ana səhifə</a> / Könüllülük</div><span class="eyebrow">Könüllülük</span><h1>Könüllülük</h1><p class="lead">Könüllülük ictimai faydalı fəaliyyətdə könüllü və təmənnasız iştirakdır. Təsdiqlənməmiş imtiyaz vəd edilmir.</p></div></div>
+<section class="section"><div class="container grid-2">
+<div>
+<h2>Könüllülük nədir</h2><p class="muted">Tədbirlərin təşkili, icma layihələri və sosial təşəbbüslərdə iştirakı əhatə edir.</p>
+<h2>Kimlər qoşula bilər</h2><ul class="check-list"><li>14 yaşdan yuxarı gənclər (yaş həddi elanla dəqiqləşdirilir)</li><li>Sumqayıtda yaşayan və ya təhsil alan şəxslər</li><li>Məsuliyyətli və komanda işinə açıq olanlar</li></ul>
+<h2>Könüllünün fəaliyyəti</h2><ul class="check-list"><li>Qeydiyyat və qarşılama dəstəyi</li><li>Tədbir logistikası və foto hesabat dəstəyi</li><li>İcma layihələrində iştirak</li></ul>
+<h2>İmkanlar</h2><p class="muted">Təcrübə mühiti, sertifikat və ya tövsiyə məktubu kimi məsələlər hər layihənin rəsmi elanında göstərilir. Ümumi vəd verilmir.</p>
+</div>
+<div>
+<div class="form-wrap" style="grid-template-columns:1fr"><div class="form-main">
+<h3>Könüllü müraciəti</h3>
+<form data-validate data-success="volSuccess" novalidate>
+<div class="form-2"><div class="field"><label for="v-ad">Ad <em>*</em></label><input id="v-ad" name="ad" required autocomplete="given-name"><span class="error-msg">Adı daxil edin.</span></div>
+<div class="field"><label for="v-soyad">Soyad <em>*</em></label><input id="v-soyad" name="soyad" required autocomplete="family-name"><span class="error-msg">Soyadı daxil edin.</span></div></div>
+<div class="form-2"><div class="field"><label for="v-tel">Telefon <em>*</em></label><input id="v-tel" name="phone" inputmode="tel" placeholder="+994 ..." required><span class="error-msg">Düzgün telefon daxil edin.</span></div>
+<div class="field"><label for="v-mail">Email <em>*</em></label><input id="v-mail" name="email" type="email" required autocomplete="email"><span class="error-msg">Düzgün e-poçt daxil edin.</span></div></div>
+<div class="field"><label for="v-sahə">Maraq dairəsi <em>*</em></label><select id="v-sahə" name="maraq" required><option value="">Seçin</option><option>Tədbir təşkili</option><option>Media və foto</option><option>Təhsil dəstəyi</option><option>İcma layihələri</option></select><span class="error-msg">Maraq dairəsini seçin.</span></div>
+<div class="field"><label style="display:flex;gap:8px;align-items:start"><input type="checkbox" data-consent required style="width:auto"> <span class="small">Şəxsi məlumatlarımın emalına razılıq verirəm. <em>*</em></span></label><span class="error-msg">Davam etmək üçün razılıq lazımdır.</span></div>
+<button class="btn btn-primary" type="submit" style="width:100%">Müraciəti göndər</button>
+<p class="notice" style="margin-top:12px">Məlumatlar təhlükəsiz emal olunur və açıq interfeysdə göstərilmir.</p>
+</form>
+<div class="success-box" id="volSuccess" role="status"><h3>Müraciətiniz qəbul edildi.</h3><p>Əməkdaşlarımız sizinlə əlaqə saxlayacaq. Diqqətiniz üçün təşəkkür edirik.</p><a class="btn btn-secondary btn-sm" href="index.html">Ana səhifəyə qayıt</a></div>
+</div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-top"><div><div class="footer-brand"><img src="./assets/logo.svg" alt=""><div><strong>SUMQAYIT GƏNCLƏR EVİ</strong></div></div></div><div><h4>Bölmələr</h4><ul><li><a href="konulluluk.html">Könüllülük</a></li></ul></div><div><h4>Müraciət</h4><ul><li><a href="qeydiyyat.html">Qeydiyyat</a></li></ul></div><div><h4>Əlaqə</h4><ul><li><span class="small" data-contact-phone>+123 45 678 91 01</span></li></ul></div></div><div class="footer-divider"><div class="container footer-bottom"><span>© <span data-year>2026</span> Sumqayıt Gənclər Evi.</span></div></div></footer>
+<script src="./js/content.js"></script><script src="./js/main.js"></script>
+</body>
+</html>
+
